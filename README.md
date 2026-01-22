@@ -1,23 +1,24 @@
-# 3D Mesh Grid Splitter
+# 3D-GRID-SPLITTER
 
-A Python tool to split large 3D meshes (STL, OBJ) into smaller, uniform grid chunks. This is particularly useful for **3D printing oversized models** on smaller printers or for **spatial data analysis**.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
 
-## Features
+**Automated Grid Slicing Tool for Large 3D Models**
+
+This repository provides a Python-based solution to split large 3D mesh files (`.stl`, `.obj`) into smaller, user-defined grid chunks (e.g., 50mm x 50mm cubes).
+
+Unlike simple cutting tools, this script automatically **fills the cut surfaces (capping)**, making the resulting parts "watertight" and immediately ready for **3D printing** or **segment-based analysis**.
+
+## 🚀 Features
 
 - **Grid Slicing:** Automatically splits a 3D model into an `N x M` grid based on specified dimensions (mm).
-- **Watertight Capping:** Automatically fills the cut surfaces (closes holes) to ensure the parts are solid and 3D printable.
-- **Visualization:** Provides a 3D preview of the split parts with a wireframe grid.
+- **Watertight Capping:** Automatically fills the cut surfaces (closes holes) to ensure the parts are solid.
+- **Visualization:** Includes a built-in 3D viewer (PyVista) to preview the split chunks.
 - **Format Support:** Supports `.stl`, `.obj`, and other formats supported by PyVista.
 
-## Requirements
-
-- Python 3.7+
-- `pyvista`
-- `numpy`
-
-## Installation
+## 📦 Installation
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/3d-mesh-grid-splitter.git](https://github.com/YOUR_USERNAME/3d-mesh-grid-splitter.git)
-   cd 3d-mesh-grid-splitter
+   git clone [https://github.com/YEONCHEOL-HA/3D-GRID-SPLITTER.git](https://github.com/YEONCHEOL-HA/3D-GRID-SPLITTER.git)
+   cd 3D-GRID-SPLITTER
