@@ -23,4 +23,5 @@ Unlike simple cutting tools, this script automatically **fills the cut surfaces 
    git clone [https://github.com/YEONCHEOL-HA/3D-GRID-SPLITTER.git](https://github.com/YEONCHEOL-HA/3D-GRID-SPLITTER.git)
    cd 3D-GRID-SPLITTER
 
-<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/d9ce6541-015e-4e8c-ac53-84655c0406fd" />
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/0e4c5fe4-473e-4fe2-9829-fe63c2b402f7" />
+
