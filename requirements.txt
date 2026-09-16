@@ -1,0 +1,4 @@
+numpy>=1.22
+matplotlib>=3.5
+scipy>=1.7        # 선택: 없으면 numpy 격자해싱으로 자동 대체됨
+pyinstaller>=6.0  # EXE 빌드용 (실행 자체에는 불필요)
